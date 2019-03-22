@@ -6,6 +6,8 @@
 #define LED_RED 14
 #define LED_BLUE 15
 
+void button_init(void);
+void led_init(unsigned int led);
 void blink(unsigned int led);
 void blink_count(unsigned int led, unsigned int count);
 
